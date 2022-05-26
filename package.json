@@ -1,0 +1,28 @@
+{
+  "name": "simple-ts-router",
+  "version": "0.0.3",
+  "description": "simple ts router.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm publish"
+  },
+  "author": "ddtt786",
+  "keywords": [
+    "router",
+    "history"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ddtt786/simple-ts-router.git"
+  },
+  "license": "MIT",
+  "files": [
+    "build/**/*"
+  ],
+  "dependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.6.4"
+  }
+}
