@@ -1,6 +1,6 @@
 {
   "name": "simple-ts-router",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "simple ts router.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
